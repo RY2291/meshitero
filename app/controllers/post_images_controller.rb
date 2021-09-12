@@ -11,7 +11,8 @@ class PostImagesController < ApplicationController
       redirect_to post_images_path
     else
       render :new
-      
+    end
+    
   end
 
   def index
